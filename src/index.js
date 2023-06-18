@@ -23,39 +23,48 @@ root.render(
       />
       <EngineHW city="Paris" />
       <br />
+<div class="container">
+      <div>Mon</div>
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"goldenrod"}
+        size={50}
+        animate={true}
+      />
 
-<div class="row">
+      <div>Tues</div>
+
       <ReactAnimatedWeather
         icon={"PARTLY_CLOUDY_DAY"}
-        color={"black"}
+        color={"goldenrod"}
         size={50}
         animate={true}
       />
+      <div>Wed</div>
+
       <ReactAnimatedWeather
         icon={"PARTLY_CLOUDY_DAY"}
-        color={"black"}
+        color={"goldenrod"}
         size={50}
         animate={true}
       />
+      <div>Thurs</div>
+
       <ReactAnimatedWeather
         icon={"PARTLY_CLOUDY_DAY"}
-        color={"black"}
+        color={"goldenrod"}
         size={50}
         animate={true}
       />
+      <div>Fri</div>
+
       <ReactAnimatedWeather
         icon={"PARTLY_CLOUDY_DAY"}
-        color={"black"}
-        size={50}
-        animate={true}
-      />
-      <ReactAnimatedWeather
-        icon={"PARTLY_CLOUDY_DAY"}
-        color={"black"}
+        color={"goldenrod"}
         size={50}
         animate={true}
       />
       </div>
-    </div>
+      </div>
   </StrictMode>
 );
