@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import EngineHW from "./my-app/src/engineHW";
+import EngineHW from "./engineHW";
 
 import ReactAnimatedWeather from "react-animated-weather";
 
