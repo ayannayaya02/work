@@ -13,11 +13,8 @@ root.render(
   <StrictMode>
     <div className="App">
       <h1>Display Weather</h1>
-      <p>
-        <em>
-          <strong>The weather is °F in </strong>{" "}
-        </em>
-      </p>
+      <h2>78 °F </h2>
+
       <ReactAnimatedWeather
         icon={"PARTLY_CLOUDY_DAY"}
         color={"black"}
@@ -25,6 +22,40 @@ root.render(
         animate={true}
       />
       <EngineHW city="Paris" />
+      <br />
+
+<div class="row">
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"black"}
+        size={50}
+        animate={true}
+      />
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"black"}
+        size={50}
+        animate={true}
+      />
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"black"}
+        size={50}
+        animate={true}
+      />
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"black"}
+        size={50}
+        animate={true}
+      />
+      <ReactAnimatedWeather
+        icon={"PARTLY_CLOUDY_DAY"}
+        color={"black"}
+        size={50}
+        animate={true}
+      />
+      </div>
     </div>
   </StrictMode>
 );
